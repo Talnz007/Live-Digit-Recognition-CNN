@@ -20,23 +20,22 @@ This project demonstrates a real-time digit recognition system using Convolution
    
 2. Create a virtual environment (optional but recommended):
 
-bash
+```bash
 
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-Install the required packages:
-
-bash
-
+```
+3. Install the required packages:
+```bash
     pip install -r requirements.txt
+```
 
-##Usage
+## Installation
 
     Ensure your webcam is connected and accessible.
     Run the Jupyter notebook:
 
-    bash
+    ```bash
+    jupyter notebook Live_Digit_Recognition.ipynb
 
-jupyter notebook Live_Digit_Recognition.ipynb
-
+    
