@@ -17,3 +17,26 @@ This project demonstrates a real-time digit recognition system using Convolution
    ```bash
    git clone https://github.com/Talnz007/Live-Digit-Recognition.git
    cd Live-Digit-Recognition
+   
+2. Create a virtual environment (optional but recommended):
+
+bash
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+Install the required packages:
+
+bash
+
+    pip install -r requirements.txt
+
+##Usage
+
+    Ensure your webcam is connected and accessible.
+    Run the Jupyter notebook:
+
+    bash
+
+jupyter notebook Live_Digit_Recognition.ipynb
+
